@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.cart{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 1px 1px;
+    
+  }
+
+  img{
+    padding: 50px;
+    transition: transform .2s; 
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  img:hover{
+    transform: scale(1.1);
+  }
+  h4,h5{
+    padding-left: 10px;
+  }
+
