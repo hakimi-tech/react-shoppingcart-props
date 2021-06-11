@@ -23,4 +23,25 @@ body{
   h4,h5{
     padding-left: 10px;
   }
-
+  .button {
+    font-size:15px;
+    font-family:Arial;
+    width:100px;
+    height:40px;
+    border-width:1px;
+    color:#14396a;
+    border-color:#333333;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow:inset 0px 1px 0px 0px #fff6af;
+    text-shadow:inset 0px 1px 0px #ffee66;
+    background:linear-gradient(#ffec64, #ffab23);
+    margin-left: 10px;
+  }
+  
+  .button:hover {
+    background: linear-gradient(#ffab23, #ffec64);
+  }
